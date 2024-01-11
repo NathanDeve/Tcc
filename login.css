@@ -1,0 +1,111 @@
+.logo{
+  height: 100px ;
+  width: 100px;
+}
+
+
+
+.bodylogin {
+    border: 0;
+    padding: 0;
+    background-image: url(senaiwallpaper.jpg);
+}
+
+.formulariologin {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-bottom: 0.4em;
+    background-color: #f3f3f3;
+    border-radius: 30px;
+    align-items: center;
+    width: 280px;
+    padding: 40px;
+    height: 350px;
+    border: 1px solid #161616;
+}
+  .fieldlogin {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5em;
+    border-radius: 25px;
+    padding: 0.6em;
+    border: none;
+    outline: none;
+    color: rgb(0, 0, 0);
+    background-color: #e1e1e1;
+    box-shadow: inset 2px 5px 10px rgb(172, 172, 172);
+  }
+  
+  .input-icon {
+    height: 1.3em;
+    width: 1.3em;
+    fill: white;
+  }
+  
+  .input-fieldlogin {
+    background: none;
+    border: none;
+    outline: none;
+    width: 100%;
+    color: #000000;
+  }
+  
+  .formulariologin .btnlogin {
+    display: flex;
+    justify-content: center;
+    margin: 12px;
+  }
+  
+  .buttonlogin {
+    padding: 9px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    transition: .4s ease-in-out;
+    background-color: #015bac;
+    color: white;
+    cursor: pointer;
+    width: 120px;
+    margin-left: 10px;
+}
+  
+  .buttonlogin:hover {
+    background-color: 	#4682B4;
+    color: white;
+
+  }
+  
+
+.alinhacentro{
+    width: 99vw;
+    height: 98vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logosenai {
+    width: 100%;
+    height: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 0 25px 0;
+}
+
+
+.logosenai img {
+    width: 200px;
+    padding: 500px;
+}
+
+.aviso{
+  color: white;
+}
+
+a{
+  text-decoration: none;
+  color:white;
+}

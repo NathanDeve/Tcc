@@ -1,0 +1,55 @@
+.tabela{
+    width: 20%;
+    height: 7vh;
+
+}
+
+.text{
+    margin: 3%;
+    
+}
+
+.tablet{
+    display:flex;
+    border:1px solid black;
+    margin-bottom: 3%;
+    justify-content: center;
+    margin-left: 35%;
+    margin-right: 35%;
+    width: 45vw;
+}
+
+table{
+    
+    padding-left: 7%;
+}
+th{
+    border-bottom: 1px solid;
+}
+td{
+    padding-right: 10px ;
+    border-right: 1px solid;
+
+}
+table{
+    padding: 10px;
+    border:none;
+    width:85%;
+}
+tr{
+  margin: 10px;
+ 
+}
+td{
+    border:none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.356);
+}
+th{
+    border: none;
+    border-bottom: 1px solid black;
+}
+th,td{
+        padding: 20px;
+        text-align: left;
+   
+}

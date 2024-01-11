@@ -1,0 +1,115 @@
+form{
+    border: 1px solid black;
+    padding: 1px;
+    width: 45vh;
+    height: 94vh;
+    margin: 5vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 50px;
+}
+
+.section1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.buttons {
+    padding: 9px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    transition: .4s ease-in-out;
+    background-color: #015bac;
+    color: white;
+    cursor: pointer;
+    width: 120px;
+    margin-left: 10px;
+}
+
+.date {
+    width: 22vh;
+    text-align: center;
+    margin: 1px;
+}
+
+.saude{
+    height: 24px;
+      width: 178px;
+      text-align: center;
+  }
+
+  .status{
+    height: 24px;
+      width: 178px;
+      text-align: center;
+  }
+
+  .funcao{
+    height: 24px;
+    width: 178px;
+    text-align: center;
+  }
+/* customização do file-btn */
+  input[type="file"] {
+    display: none;
+}
+
+.custom-file-upload {
+    border: 1px solid #ccc;
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+    background-color: #015bac;
+    color: white;
+    border-radius: 4px;
+}
+
+.custom-file-upload:hover {
+    background-color: #015bac;
+}
+
+/* */
+
+.formalt{
+    border: 1px solid black;
+    padding: 1px;
+    width: 45vh;
+    height: 90vh;
+    margin: 5vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 50px;
+}
+
+.formalte{
+border: 1px solid black;
+padding: 1px;
+width: 35vh;
+height: 50vh;
+margin: 5vh;
+text-align: center;
+display: flex;
+justify-content: center;
+flex-direction: column;
+align-items: center;
+border-radius: 50px;
+}
+
+textarea{
+    height: 254px;
+    width: 180px;
+
+}
+
+body{
+    margin: 0;
+}

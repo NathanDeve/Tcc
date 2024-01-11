@@ -1,0 +1,22 @@
+img{
+    width: 100px;
+    height: 100px;
+}
+
+table{
+    width: 60%;
+    height: 750px;
+    border:1px solid black;
+    margin-bottom: 25%;
+    margin-left: 15%;
+}
+td{
+    margin: 10px;
+}
+th{
+    border-bottom: 1px solid black;
+}
+
+body{
+    margin: 100px;
+}

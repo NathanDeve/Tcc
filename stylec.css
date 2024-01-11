@@ -1,0 +1,107 @@
+html{
+    padding: 0;
+    margin: 0;
+}
+.links{
+    background-color: #006494;
+    color: #fff;
+    box-sizing: border-box;
+    display: flex;
+    justify-content:center ;
+    margin: 0px;
+    margin-top: 10px;
+    padding: 5px;
+    width: 0 auto;
+
+}
+.logou-btn{
+    align-self: left;
+}
+.cabecalho1{
+    background-color: #fff ;
+    width: 0 auto;
+}
+
+nav{
+    background: white;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 10px;
+    margin-top: 10px;
+    padding-left: 15px;
+    display: flex;
+    justify-content:center ;
+}
+
+nav ul li:last-child {
+    margin-right: 0; 
+}
+
+nav ul li a {
+    font-size: 15px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    transition: .5s;
+}
+
+a.active,
+a{
+    transition: all 400ms;
+    color: #fff;
+    text-decoration: none;
+}
+a:hover {
+    background: white;
+    color: #13293D;
+    border-radius: 10px;
+    padding: 4px;
+    font-size: 25px;
+}
+
+section{
+    background: url(#) no-repeat;
+    background-size: cover;
+}
+ul{
+    display: flex;
+    padding: 0;
+    list-style-type: none;
+    
+}
+li{
+    margin-right:10vh;
+    width: 20vh;
+}
+.logo-img{
+    height:auto;
+    width: auto;
+}
+.return-btn{
+    background-color: #177bb4;
+    height: 45px;
+    width: 80px;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    transition: all 500ms;
+    font-size: 15px;
+}
+.return-btn:hover{
+    background-color: #fff;
+    color: black;
+    padding: 10px;
+    font-size: 20px;
+    border: 1px solid black;
+}
+
+body{
+    margin: 0;
+}

@@ -1,0 +1,30 @@
+body {
+    margin: 5px;
+}
+
+footer {
+    background-color: #13293D;
+    color: #fff;
+    padding: 20px;
+    margin: 0;
+    position: fixed;
+    bottom: 0;
+    width: 99%; /* Alterado para 99% */
+}
+
+.descript{
+    text-align: center;
+    font-size: 15px;
+}
+
+.a {
+    color: ivory;
+    text-decoration: none;
+    padding: 10px;
+    margin: 25px;
+    transition: all 200ms;
+}
+
+.none {
+    border: none;
+}
